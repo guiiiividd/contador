@@ -3,3 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+main{
+    max-width: 40vw;
+    border-radius: 2.5rem;
+    background-color: #191C1E;
+    padding: 2rem;
+}
+
+.number-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #C3E7FF;
+    font-size: 15rem;
+}
+.buttons-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.buttons{
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    border: none;
+    cursor: pointer;
+}
+.buttons:hover{
+    filter: brightness(50%)
+}
+.buttons img{
+    width: 2rem;
+}
+#reset-button{
+    background-color: #C3E7FF;
+}
+#increment-button{
+    background-color: #FF0000;
+}
+#decrement-button{
+    background-color: #00FF00;
+}
